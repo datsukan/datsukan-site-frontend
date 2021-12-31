@@ -9,7 +9,7 @@ export const ContentLink: VFC<Props> = ({ name, url, description, isExternalPage
     <li>
       <NewTabLink url={url}>
         <div className="flex items-center hover:underline">
-          <h2 className="text-2xl font-bold tracking-tight">{name}</h2>
+          <h2 className="text-2xl font-bold">{name}</h2>
           {isExternalPage && <FaExternalLinkAlt className="ml-3" size={"1rem"} />}
         </div>
       </NewTabLink>

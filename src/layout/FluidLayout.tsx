@@ -13,7 +13,7 @@ export const FluidLayout: CustomLayout = (page) => {
       <header>
         <Header />
       </header>
-      <main className="flex-1">
+      <main className="flex-1 tracking-tight">
         <LayoutErrorBoundary>{page}</LayoutErrorBoundary>
       </main>
       <footer>
