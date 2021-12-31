@@ -2,8 +2,9 @@ import type { CustomNextPage } from "next";
 import { FixedLayout } from "src/layout";
 
 import { Avatar } from "~/component/atoms/Avatar";
-import { AccountLinks } from "~/component/molecules/AccountLinks";
-import { accounts, avatarUrl, description, name } from "~/data/profile";
+import { ContentLinks } from "~/component/molecules/ContentLinks";
+import { contents } from "~/data/contents";
+import { avatarUrl, description, name } from "~/data/profile";
 
 const Root: CustomNextPage = () => {
   return (
@@ -11,10 +12,11 @@ const Root: CustomNextPage = () => {
       <div className="mt-24">
         <Avatar imageUrl={avatarUrl} />
       </div>
-      <p className="mt-6 text-3xl font-black">{name}</p>
-      <p className="mt-4 font-medium text-slate-400">{description}</p>
+      <h1 className="mt-6 text-3xl font-black">{name}</h1>
+      <p className="mt-4 font-medium text-slate-500">{description}</p>
+      <hr className="mt-8" />
       <div className="mt-8">
-        <AccountLinks accounts={accounts} />
+        <ContentLinks contents={contents} />
       </div>
     </div>
   );
