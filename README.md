@@ -39,7 +39,7 @@ $ yarn dev
 ### Run the test \ テストの実行
 
 ```
-yarn test
+$ yarn test
 ```
 
 ## Note \ 注意事項
