@@ -9,7 +9,7 @@ type Props = {
 
 export const ContentLinks: VFC<Props> = ({ contents }) => {
   return (
-    <ul className="grid gap-y-6">
+    <ul className="grid gap-y-8">
       {contents.map((content) => {
         return <ContentLink {...content} key={content.name} />;
       })}

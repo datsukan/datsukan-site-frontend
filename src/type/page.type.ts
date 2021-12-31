@@ -4,6 +4,6 @@ export type Page = {
 };
 
 export type PageIndex = {
-  top: number;
+  root: number;
   about: number;
 };

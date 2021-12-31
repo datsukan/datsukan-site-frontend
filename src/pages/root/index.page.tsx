@@ -10,7 +10,7 @@ import { avatarUrl, description, name } from "~/data/profile";
 import { siteConfig } from "~/site.config";
 
 const Root: CustomNextPage = () => {
-  const pageName = pages[pageIndex.top].name;
+  const pageName = pages[pageIndex.root].name;
 
   return (
     <>

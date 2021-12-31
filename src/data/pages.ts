@@ -6,7 +6,7 @@ const pages: Page[] = [
 ];
 
 const pageIndex: PageIndex = {
-  top: 0,
+  root: 0,
   about: 1,
 };
 
