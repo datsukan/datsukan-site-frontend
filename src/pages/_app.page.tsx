@@ -3,6 +3,7 @@ import "~/styles/global.css";
 
 import type { CustomAppProps } from "next/app";
 import Head from "next/head";
+import { ThemeProvider } from "next-themes";
 import { memo } from "react";
 
 import { siteConfig } from "~/site.config";
@@ -25,7 +26,7 @@ const App = ({ Component, pageProps }: CustomAppProps) => {
     <>
       <Head>
         <title>{siteConfig.title}</title>
-        <link rel="icon shortcut" type="image/png" href={`${siteConfig.siteRoot}/images/avatar.jpg`} />
+        <link rel="icon shortcut" href="favicon.ico" />
         <link rel="apple-touch-icon-precomposed" type="image/png" href={`${siteConfig.siteRoot}/images/avatar.jpg`} />
         <link rel="canonical" href={siteConfig.siteRoot} />
         <meta property="og:image" content={`${siteConfig.siteRoot}/images/avatar.jpg`} />
@@ -35,7 +36,7 @@ const App = ({ Component, pageProps }: CustomAppProps) => {
         <meta property="og:description" content={siteConfig.description} />
         <meta name="description" content={siteConfig.description} />
       </Head>
-      {getLayout(<Component {...pageProps} />)}
+      <ThemeProvider attribute="class">{getLayout(<Component {...pageProps} />)}</ThemeProvider>
     </>
   );
 };
