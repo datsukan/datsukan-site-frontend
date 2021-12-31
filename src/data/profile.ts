@@ -1,7 +1,9 @@
-const name = "datsukan";
+import type { AvatarUrl, Description, Name } from "~/type/profile.type";
 
-const avatarUrl = "/images/avatar.jpg";
+const name: Name = "datsukan";
 
-const description = "日本を拠点に活動しているWeb developer / Software developer です。";
+const avatarUrl: AvatarUrl = "/images/avatar.jpg";
+
+const description: Description = "日本を拠点に活動しているWeb developer / Software developer です。";
 
 export { avatarUrl, description, name };

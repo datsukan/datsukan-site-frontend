@@ -1,10 +1,11 @@
 import Image from "next/image";
+import type { VFC } from "react";
 
 type Props = {
   imageUrl: string;
 };
 
-export const Avatar = ({ imageUrl }: Props) => {
+export const Avatar: VFC<Props> = ({ imageUrl }) => {
   return (
     <Image
       src={imageUrl}

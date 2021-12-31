@@ -1,7 +1,7 @@
 import type { VFC } from "react";
 
-import type { Props as ContentLinkProps } from "~/component/atoms/ContentLink";
 import { ContentLink } from "~/component/atoms/ContentLink";
+import type { Content as ContentLinkProps } from "~/type/content.type";
 
 type Props = {
   contents: ContentLinkProps[];

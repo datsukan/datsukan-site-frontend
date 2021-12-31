@@ -1,15 +1,10 @@
+import type { VFC } from "react";
 import { FaExternalLinkAlt } from "react-icons/fa";
 
 import { NewTabLink } from "~/component/atoms/NewTabLink";
+import type { Content as Props } from "~/type/content.type";
 
-export type Props = {
-  name: string;
-  url: string;
-  description: string;
-  isExternalPage: boolean;
-};
-
-export const ContentLink = ({ name, url, description, isExternalPage }: Props) => {
+export const ContentLink: VFC<Props> = ({ name, url, description, isExternalPage }) => {
   return (
     <li>
       <NewTabLink url={url}>

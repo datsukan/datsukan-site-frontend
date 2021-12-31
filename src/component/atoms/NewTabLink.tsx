@@ -1,11 +1,11 @@
-import type { ReactNode } from "react";
+import type { ReactNode, VFC } from "react";
 
 export type Props = {
   url: string;
   children: ReactNode;
 };
 
-export const NewTabLink = ({ url, children }: Props) => {
+export const NewTabLink: VFC<Props> = ({ url, children }) => {
   return (
     <a href={url} target="_blank" rel="noopener noreferrer">
       {children}

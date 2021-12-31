@@ -1,4 +1,6 @@
-const contents = [
+import type { Content } from "~/type/content.type";
+
+const contents: Content[] = [
   {
     name: "GitHub",
     url: "https://github.com/datsukan",
