@@ -14,12 +14,12 @@ export const FixedLayout: CustomLayout = (page) => {
         <Header />
       </header>
       <div className="flex flex-col mx-auto max-w-screen-md min-h-screen">
-        <main className="flex-1">
+        <main className="flex-1 mx-4">
           <LayoutErrorBoundary>{page}</LayoutErrorBoundary>
         </main>
       </div>
 
-      <footer>
+      <footer className="mt-24">
         <Footer />
       </footer>
     </>
