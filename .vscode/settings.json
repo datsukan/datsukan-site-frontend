@@ -11,5 +11,8 @@
   "files.eol": "\n",
   "typescript.preferences.importModuleSpecifier": "non-relative",
   "typescript.tsdk": "node_modules/typescript/lib",
-  "eslint.validate": ["javascript", "javascriptreact", "typescript", "typescriptreact"]
+  "eslint.validate": ["javascript", "javascriptreact", "typescript", "typescriptreact"],
+  "markdownlint.config": {
+    "MD033": false
+  }
 }

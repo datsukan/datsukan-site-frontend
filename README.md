@@ -20,16 +20,16 @@ datsukan の個人サイトのフロントエンドプロジェクト。
 
 ## Installation \ 導入
 
-```
-$ yarn install
+```text
+yarn install
 ```
 
 ## Usage \ 使用方法
 
 ### Start local server \ ローカルサーバーを起動
 
-```
-$ yarn dev
+```text
+yarn dev
 ```
 
 ### Stop local server \ ローカルサーバーを停止
@@ -38,8 +38,8 @@ $ yarn dev
 
 ### Run the test \ テストの実行
 
-```
-$ yarn test
+```text
+yarn test
 ```
 
 ## Note \ 注意事項
