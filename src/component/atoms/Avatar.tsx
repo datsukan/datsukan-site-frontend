@@ -3,16 +3,17 @@ import type { VFC } from "react";
 
 type Props = {
   imageUrl: string;
+  size: number;
 };
 
-export const Avatar: VFC<Props> = ({ imageUrl }) => {
+export const Avatar: VFC<Props> = ({ imageUrl, size }) => {
   return (
     <Image
       src={imageUrl}
       alt="icon"
       className="flex justify-center items-center max-w-full rounded-full ring-gray-200"
-      width={96}
-      height={96}
+      width={size}
+      height={size}
     />
   );
 };

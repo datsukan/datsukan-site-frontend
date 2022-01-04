@@ -1,6 +1,13 @@
+import { pageIndex, pages } from "~/data/pages";
 import type { Content } from "~/type/content.type";
 
 const contents: Content[] = [
+  {
+    name: "About",
+    url: pages[pageIndex.about].path,
+    description: "datsukanについての紹介です。",
+    isExternalPage: false,
+  },
   {
     name: "GitHub",
     url: "https://github.com/datsukan",

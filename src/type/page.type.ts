@@ -1,5 +1,6 @@
 export type Page = {
   path: string;
+  pathAlias?: string;
   name: string;
 };
 

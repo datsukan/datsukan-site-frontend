@@ -4,6 +4,6 @@ const name: Name = "datsukan";
 
 const avatarUrl: AvatarUrl = "/images/avatar.jpg";
 
-const description: Description = "日本を拠点に活動しているWeb developer / Software developer です。";
+const description: Description = "Web developer / Software developer / Designer";
 
 export { avatarUrl, description, name };

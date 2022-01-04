@@ -1,7 +1,7 @@
 import type { Page, PageIndex } from "~/type/page.type";
 
 const pages: Page[] = [
-  { path: "/", name: "" },
+  { path: "/", pathAlias: "/root", name: "" },
   { path: "/about", name: "about" },
 ];
 

@@ -11,7 +11,7 @@ export const FixedLayout: CustomLayout = (page) => {
   return (
     <div className="tracking-tight text-zinc-900 dark:text-white bg-white dark:bg-zinc-900">
       <div className="flex flex-col px-4 mx-auto max-w-screen-md min-h-screen">
-        <header>
+        <header className="sticky top-0 z-50">
           <Header />
         </header>
 

@@ -17,7 +17,7 @@ const Root: CustomNextPage = () => {
       <Head>{pageName && <title>{`${pageName} - ${siteConfig.title}`}</title>}</Head>
       <div>
         <div className="mt-12">
-          <Avatar imageUrl={avatarUrl} />
+          <Avatar imageUrl={avatarUrl} size={96} />
         </div>
         <h1 className="mt-6 text-3xl font-black">{name}</h1>
         <p className="mt-4 font-medium text-slate-500">{description}</p>
