@@ -12,7 +12,10 @@ const Root: CustomNextPage = () => {
 
   return (
     <>
-      <Head>{pageName && <title>{`${pageName} - ${siteConfig.title}`}</title>}</Head>
+      <Head>
+        {pageName && <title>{`${pageName} - ${siteConfig.title}`}</title>}
+        <meta name="description" content={siteConfig.descriptions.about} />
+      </Head>
       <h1 className="mt-6 text-3xl font-black capitalize">{pageName}</h1>
 
       {/* 説明 */}
