@@ -1,6 +1,6 @@
+import { fqdn } from "~/data/meta";
+
 module.exports = {
-  siteUrl: "https://datsukan.me",
+  siteUrl: fqdn,
   generateRobotsTxt: true,
-  sitemapSize: 7000,
-  outDir: "./out",
 };

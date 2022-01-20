@@ -1,7 +1,7 @@
-import { descriptions } from "~/data/meta/descriptions";
+import { descriptions, fqdn, title } from "~/data/meta";
 
 export const siteConfig = {
-  title: "datsukan",
+  title: title,
   descriptions: descriptions,
-  siteRoot: process.env.NODE_ENV === "production" ? "https://www.datsukan.me" : "http://localhost:3000",
+  siteRoot: process.env.NODE_ENV === "production" ? fqdn : "http://localhost:3000",
 };
