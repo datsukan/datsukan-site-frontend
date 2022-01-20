@@ -33,8 +33,7 @@ const App = ({ Component, pageProps }: CustomAppProps) => {
         <meta property="og:type" content="website" />
         <meta name="twitter:card" content="summary" />
         <meta property="og:title" content={siteConfig.title} />
-        <meta property="og:description" content={siteConfig.description} />
-        <meta name="description" content={siteConfig.description} />
+        <meta property="og:description" content={siteConfig.descriptions.root} />
       </Head>
       <ThemeProvider attribute="class">{getLayout(<Component {...pageProps} />)}</ThemeProvider>
     </>
