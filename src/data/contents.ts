@@ -9,6 +9,12 @@ const contents: Content[] = [
     isExternalPage: false,
   },
   {
+    name: "Blog",
+    url: "https://blog.datsukan.me",
+    description: "エンジニアリング、日常、趣味、思考などを吐き出すブログです。",
+    isExternalPage: true,
+  },
+  {
     name: "GitHub",
     url: "https://github.com/datsukan",
     description: "開発したソースを公開しています。",
