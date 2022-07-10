@@ -39,9 +39,9 @@ const contents: Content[] = [
     isExternalPage: true,
   },
   {
-    name: "Note",
-    url: "https://note.com/datsukan",
-    description: "技術関連以外の記事を投稿しています。",
+    name: "Bookshelf",
+    url: "https://datsukan.notion.site/datsukan/a18bf874b65a443089db71ae1d276cac?v=60846f678f8641238d952bcc9bf86b1c",
+    description: "これまでに購入、読んだ本をまとめています。",
     isExternalPage: true,
   },
 ];
