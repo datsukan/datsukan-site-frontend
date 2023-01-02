@@ -40,8 +40,14 @@ const contents: Content[] = [
   },
   {
     name: "Bookshelf",
-    url: "https://datsukan.notion.site/datsukan/a18bf874b65a443089db71ae1d276cac?v=60846f678f8641238d952bcc9bf86b1c",
+    url: "https://datsukan.notion.site/a18bf874b65a443089db71ae1d276cac?v=60846f678f8641238d952bcc9bf86b1c",
     description: "これまでに購入、読んだ本をまとめています。",
+    isExternalPage: true,
+  },
+  {
+    name: "Portfolio",
+    url: "https://datsukan.notion.site/8b6570cd5fa5404f8507a5637da80b75?v=a2e21b26a17e4f7cb1d2648ab0962a84",
+    description: "個人で作成・公開してきたサイトやツールなどをまとめています。",
     isExternalPage: true,
   },
 ];
