@@ -7,7 +7,7 @@ import type { TimelineItem as Props } from "~/type/about.type";
 export const TimelineItem: VFC<Props> = ({ type, name, startedAt, endedAt, period, description }) => {
   const isPrivate = type === "private";
   const time = generateTime(startedAt, endedAt, period);
-  const circleSize = isPrivate ? 3 : 4;
+  const circleSize = isPrivate ? "w-3 h-3" : "w-4 h-4";
   const circleColor = isPrivate ? "bg-zinc-400" : "bg-zinc-600";
 
   return (
@@ -15,7 +15,7 @@ export const TimelineItem: VFC<Props> = ({ type, name, startedAt, endedAt, perio
       <div className="flex flex-col gap-1 items-center">
         <div className="flex-1 w-0.5 border border-r-[1px] border-l-[1px] border-gray-200"></div>
         <div className="flex justify-center items-center w-4 h-4">
-          <div className={`w-${circleSize} h-${circleSize} ${circleColor} rounded-full`}></div>
+          <div className={`${circleSize} ${circleColor} bg-zinc-400 rounded-full`}></div>
         </div>
         <div className="flex-1 w-0.5 border border-r-[1px] border-l-[1px] border-gray-200"></div>
       </div>
