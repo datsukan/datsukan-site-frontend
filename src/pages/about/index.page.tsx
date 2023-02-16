@@ -2,8 +2,8 @@ import type { CustomNextPage } from "next";
 import Head from "next/head";
 import { FixedLayout } from "src/layout";
 
-import { WorkItems } from "~/component/molecules/WorkItems";
-import { contact, description, outsideOfWork, works } from "~/data/about";
+import { TimelineItems } from "~/component/molecules/TimelineItems";
+import { contact, description, outsideOfWork, timelineItems } from "~/data/about";
 import { pageIndex, pages } from "~/data/pages";
 import { siteConfig } from "~/site.config";
 
@@ -22,9 +22,9 @@ const Root: CustomNextPage = () => {
       <p className="mt-6 whitespace-pre-wrap">{description}</p>
 
       {/* 職務経歴 */}
-      <h2 className="mt-20 text-2xl font-bold">Works</h2>
+      <h2 className="mt-20 text-2xl font-bold">Timeline</h2>
       <div className="mt-8">
-        <WorkItems works={works} />
+        <TimelineItems timelineItems={timelineItems} />
       </div>
 
       {/* 仕事以外 */}
