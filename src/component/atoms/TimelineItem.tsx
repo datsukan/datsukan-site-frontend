@@ -11,7 +11,7 @@ export const TimelineItem: VFC<Props> = ({ type, name, startedAt, endedAt, perio
   const circleColor = isPrivate ? "bg-zinc-400" : "bg-zinc-600";
 
   return (
-    <div className="flex gap-10">
+    <div className="flex gap-2 pl-1 md:gap-10 md:pl-6">
       <div className="flex flex-col gap-1 items-center">
         <div className="flex-1 w-0.5 border border-r-[1px] border-l-[1px] border-gray-200"></div>
         <div className="flex justify-center items-center w-4 h-4">

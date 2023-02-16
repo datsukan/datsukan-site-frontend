@@ -5,7 +5,7 @@ const description: Description =
 
 const works: Works = [
   {
-    name: "SES企業（SIer企業に常駐）",
+    name: "SES企業に就職",
     startedAt: "2017/04",
     endedAt: "2018/09",
     period: "1年6ヶ月",
@@ -13,7 +13,7 @@ const works: Works = [
       "SESの形態で客先の企業オフィスに常駐して、開発や運用/保守の業務を行っていました。\n開発ではJavaやVB.NET、C#.NETなどを用いて生産管理・金融などのシステムを扱っていました。\n運用/保守では人事/総務のシステムを扱っていました。",
   },
   {
-    name: "Web受託開発企業",
+    name: "Web受託開発企業に転職",
     startedAt: "2018/10",
     endedAt: "2021/10",
     period: "3年1ヶ月",
@@ -21,7 +21,7 @@ const works: Works = [
       "プロジェクトごとに社内でチームを作り、主にWebシステムの開発を行っていました。\nシステムの業務領域は様々で、BtoBとして社内管理用システムもあれば、BtoCとして一般消費者向けのアプリケーションを扱う場合もありました。\n扱う技術はバックエンドのPHP/Laravel、フロントエンドのJavaScript/Vue.js、インフラのAWSが中心でした。",
   },
   {
-    name: "SaaS企業",
+    name: "SaaS企業に転職",
     startedAt: "2021/11",
     endedAt: "現職",
     description:
