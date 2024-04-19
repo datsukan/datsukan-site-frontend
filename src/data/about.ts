@@ -1,7 +1,7 @@
 import type { Contact, Description, OutsideOfWork, TimelineItems, Works } from "~/type/about.type";
 
 const description: Description =
-  "1999年生まれ。東京都出身。\n日本の埼玉県に在住、東京都の会社で勤務しています。\nWeb領域のプログラマー・エンジニアとして働いています。\n";
+  "1999年生まれ。東京都出身。\n日本の埼玉県に在住、東京都の会社で勤務しています。\nWeb領域のプログラマー・エンジニアとして働いています。\n通信制大学にも通う社会人学生です。";
 
 const works: Works = [
   {
@@ -96,6 +96,13 @@ const timelineItems: TimelineItems = [
     id: 10,
     type: "work",
     ...works[2],
+  },
+  {
+    id: 11,
+    type: "private",
+    name: "東京通信大学 情報マネジメント学部へ入学 （社会人学生）",
+    startedAt: "2024/04",
+    endedAt: "現在",
   },
 ];
 
